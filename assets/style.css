@@ -182,7 +182,7 @@ label{
    min-height: 100vh;
    padding: 60px 0 0 0;
 
-	background: url("/assets/img/intro-bg.jpg") center no-repeat;
+	background: url("assets/img/intro-bg.jpg") center no-repeat;
 	background-size: cover;
 }
 
@@ -474,7 +474,7 @@ label{
 .axure-design {
    min-height: 320px;
 
-	background: url("/assets/img/bg2.jpg") center no-repeat;
+	background: url("assets/img/bg2.jpg") center no-repeat;
 	background-size: cover;
 }
 
@@ -582,13 +582,6 @@ label{
 }
 
 
-
-
-
-
-
-/* ================================================ */
-
 /* Button */
 .btn {
 	display: inline-block;
@@ -667,7 +660,6 @@ label{
 }
 
 
-/* =================================================== */
 .big-block__inner {
    display: flex;
    flex-direction: column;
@@ -761,10 +753,7 @@ label{
 }
 
 
-
-/* ======================================= */
 /* @media */
-
 @media (max-width: 1024px) {
    /* Media */
    .media__link {
